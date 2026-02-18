@@ -6,26 +6,25 @@ Users can add new tasks using the input field at the top of the page. Each task 
 
 The application includes filter buttons in the header that allow users to view:
 
-All tasks
+All tasks:
+-Only active (pending) tasks
 
-Only active (pending) tasks
-
-Only completed tasks
+-Only completed tasks
 
 The interface is clean, minimal, and responsive. It uses simple CSS styling, flexbox layout, subtle shadows, and visual feedback to create a modern user experience. Accessibility is also considered by including proper labels and keyboard support for deleting tasks.
 
-This project demonstrates key front-end development concepts including:
+-This project demonstrates key front-end development concepts including:
 
-DOM manipulation
+-DOM manipulation
 
-Event listeners
+-Event listeners
 
-Working with APIs
+-Working with APIs
 
-Async/await for asynchronous operations
+-Async/await for asynchronous operations
 
-Local storage for data persistence
+-Local storage for data persistence
 
-Conditional rendering
+-Conditional rendering
 
-Basic accessibility practices
+-Basic accessibility practices
