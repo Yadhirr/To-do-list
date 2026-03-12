@@ -1,12 +1,33 @@
-This is a simple and interactive To-Do List web application built using HTML, CSS, and vanilla JavaScript. The purpose of this project is to demonstrate how to manage tasks dynamically in the browser while using modern JavaScript features like fetch, async/await, DOM manipulation, event handling, filtering, and local storage.
+# To-Do List Web Application
 
-When the application loads, it first checks if there are any saved tasks in the browser’s local storage. If tasks exist, it loads them immediately. If not, it fetches an initial set of example tasks from the public API at JSONPlaceholder (https://jsonplaceholder.typicode.com/todos) and displays them on the screen. This demonstrates how to retrieve data from an external API and render it dynamically in the browser.
+This is a simple and interactive **To-Do List web app** built with **HTML, CSS, and vanilla JavaScript**. It allows users to add, complete, delete, and filter tasks in a clean and responsive interface.
 
-Users can add new tasks using the input field at the top of the page. Each task is added instantly to the list without refreshing the page. Tasks can be marked as completed using a checkbox, which visually updates the task with a line-through effect and a different background color. Users can also delete tasks using the trash icon, which includes a confirmation prompt before removal. All changes are automatically saved to local storage so that tasks remain available even after refreshing the page.
+When the app loads, it first checks **local storage** for saved tasks. If no tasks are found, it fetches example tasks from the **JSONPlaceholder API** and displays them. All task updates are saved automatically, so they stay available after refreshing the page.
 
-All tasks:
--Only active (pending) tasks, Only completed tasks
+## Features
+- Add new tasks
+- Mark tasks as completed
+- Delete tasks with confirmation
+- Filter by all, active, or completed tasks
+- Save tasks using local storage
+- Fetch sample tasks from an API
+- Responsive and user-friendly design
 
--The interface is clean, minimal, and responsive. It uses simple CSS styling, flexbox layout, subtle shadows, and visual feedback to create a modern user experience. Accessibility is also considered by including proper labels and keyboard support for deleting tasks.
+## Tech Stack
+- HTML5
+- CSS3
+- JavaScript
 
--This project demonstrates key front-end development concepts including: DOM manipulation, Event listeners, Working with APIs, Async/await for asynchronous operations, Local storage for data persistence, Conditional rendering, Basic accessibility practices.
+## Key Concepts
+- DOM manipulation
+- Event handling
+- Async/await
+- API fetching
+- Local storage
+- Conditional rendering
+- Basic accessibility
+
+## How to Run
+1. Clone the repository  
+2. Open the project folder  
+3. Open `index.html` in your browser  
